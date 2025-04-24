@@ -8,12 +8,12 @@ import os
 # ----------------------------
 # INPUTS (Set your values here)
 # ----------------------------
-host = "localhost"
-user = "root"
-password = "tiger"
-db_name = "csproject"     # For OnlyTable / OnlyDatabase mode
-table_name = "users"       # For OnlyTable mode
-backup_root = "backups"
+host = ""
+user = ""
+password = ""
+db_name = ""     # For OnlyTable / OnlyDatabase mode
+table_name = ""       # For OnlyTable mode
+backup_root = ""
 
 # Establish DB connection
 mydb = msc.connect(host=host, user=user, password=password)
