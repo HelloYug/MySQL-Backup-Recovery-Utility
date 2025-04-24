@@ -36,12 +36,12 @@ mysql_backup_project/
 
 Edit the variables in `main.py`:
 ```python
-host = "localhost"
-user = "root"
-password = "tiger"
-db_name = "csproject"
-table_name = "users"
-backup_root = "backups"
+host = ""
+user = ""
+password = ""
+db_name = ""
+table_name = ""
+backup_root = ""
 ```
 
 # 2. Run the Script
